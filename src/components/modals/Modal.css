@@ -1,0 +1,12 @@
+.field-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.field-row-2 .field-input { margin-bottom: 12px; }
+
+.serif-input {
+  font-family: 'DM Serif Display', serif !important;
+  font-size: 28px !important;
+}

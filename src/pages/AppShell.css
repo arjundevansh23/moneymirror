@@ -1,0 +1,36 @@
+.app-shell {
+  position: relative;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.app-tab {
+  display: none;
+  padding-bottom: 84px;
+}
+.app-tab.on { display: block; }
+
+.app-loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: var(--bg);
+}
+.app-loading-icon { font-size: 40px; }
+.app-loading-text {
+  font-size: 13px;
+  color: var(--ink3);
+  font-weight: 300;
+}
+
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background: var(--bg);
+}

@@ -1,0 +1,127 @@
+.auth-page {
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 40px;
+}
+
+.auth-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 24px 0;
+  margin-bottom: 32px;
+}
+
+.auth-back {
+  background: var(--surface);
+  border: 0.5px solid var(--wheat);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--ink2);
+}
+
+.auth-logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.auth-content {
+  padding: 0 24px;
+  flex: 1;
+}
+
+.auth-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 36px;
+  color: var(--ink);
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+
+.auth-sub {
+  font-size: 14px;
+  color: var(--ink3);
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+
+.btn-google {
+  width: 100%;
+  background: var(--card);
+  border: 0.5px solid var(--wheat);
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--ink);
+  margin-bottom: 20px;
+  transition: background 0.15s;
+}
+.btn-google:active { background: var(--surface); }
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  background: #4285f4;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: var(--ink4);
+  font-size: 12px;
+}
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 0.5px;
+  background: var(--wheat);
+}
+
+.auth-error {
+  background: #fae0d8;
+  color: #a0462a;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.auth-switch {
+  text-align: center;
+  font-size: 13px;
+  color: var(--ink3);
+  font-weight: 300;
+  margin-top: 20px;
+}
+.auth-switch a {
+  color: var(--tan);
+  font-weight: 500;
+  text-decoration: none;
+}

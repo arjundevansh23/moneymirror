@@ -1,0 +1,48 @@
+.bnav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 420px;
+  background: rgba(254, 250, 224, 0.97);
+  border-top: 0.5px solid var(--wheat);
+  padding: 10px 0 16px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.ni {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  min-width: 48px;
+  background: none;
+  border: none;
+  padding: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ni-ico { font-size: 20px; line-height: 1; }
+
+.ni-lbl {
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.ni.on .ni-lbl { color: var(--tan); font-weight: 500; }
+
+.ni-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--tan);
+}
